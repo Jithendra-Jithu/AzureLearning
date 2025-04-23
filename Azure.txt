@@ -1,3 +1,16 @@
+Types of Scaling in Kubernetes
+
+-> Horizontal scaling/Horizontal Pod Autoscaler (HPA): This feature can effortlessly add or release pod replicas automatically.
+-> Vertical scaling/Vertical Pod Autoscaler (VPA): This feature in which CPU and memory reservations adjust automatically.
+-> Cluster Autoscaler: In this feature an analysis of resources occurs, and we make essential adjustments in the deployment and handle the load.(similar to horizontal scaling)
+
+Non-functional requirements:
+
+Non-functional requirements in software engineering refer to the characteristics of a software system that are not related to specific functionality or behavior. They describe how the system should perform, rather than what it should do. 
+
+Examples of NFR:
+-> Availability, scalability, performance, agility, security, consistency, reliability, durability
+
 Region: A geographical area where Azure data centers are located.
 
 Availability Zone: A physically separate location within a region with its own power, cooling, and networking, ensuring high availability.
