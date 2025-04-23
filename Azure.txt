@@ -11,6 +11,8 @@ Non-functional requirements in software engineering refer to the characteristics
 Examples of NFR:
 -> Availability, scalability, performance, agility, security, consistency, reliability, durability
 
+Strategy is a long term plan while tactics are the short term plan to achieve a certain outcome
+
 Region: A geographical area where Azure data centers are located.
 
 Availability Zone: A physically separate location within a region with its own power, cooling, and networking, ensuring high availability.
