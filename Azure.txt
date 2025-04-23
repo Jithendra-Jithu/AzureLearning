@@ -1,0 +1,15 @@
+Deployment Models: Ways to deliver applications or services — like public, private, hybrid, or multi-cloud models.
+
+Public Cloud: Services are hosted on a shared cloud platform  and accessed over the internet by multiple users.
+
+Private Cloud: Cloud infrastructure is used exclusively by one organization, offering more control, privacy, and security.
+
+Hybrid Cloud: A combination of public and private clouds, allowing data and apps to move between them for flexibility.
+
+VNet (Virtual Network): A private, isolated network in Azure for securely connecting resources like VMs.
+
+Bastion Host: A secure gateway server used to access Azure VMs through the browser without exposing public IPs.
+
+Availability Set: A grouping of VMs across fault and update domains to ensure high availability during outages or maintenance.
+
+Scale Set: A group of identical VMs that automatically scale in or out based on demand for performance and cost-efficiency.
