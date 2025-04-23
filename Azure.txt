@@ -1,3 +1,7 @@
+Region: A geographical area where Azure data centers are located.
+
+Availability Zone: A physically separate location within a region with its own power, cooling, and networking, ensuring high availability.
+
 Deployment Models: Ways to deliver applications or services — like public, private, hybrid, or multi-cloud models.
 
 Public Cloud: Services are hosted on a shared cloud platform  and accessed over the internet by multiple users.
