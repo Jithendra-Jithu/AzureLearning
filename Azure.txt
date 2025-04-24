@@ -32,3 +32,60 @@ Bastion Host: A secure gateway server used to access Azure VMs through the brows
 Availability Set: A grouping of VMs across fault and update domains to ensure high availability during outages or maintenance.
 
 Scale Set: A group of identical VMs that automatically scale in or out based on demand for performance and cost-efficiency.
+
+Day-2:
+
+I created three Virtual Machines in Azure: Frontend, Backend, and Private, along with a Virtual Network (VNet).
+
+Note: If you don’t manually create a Network Security Group (NSG), Azure automatically creates one during VM provisioning.
+
+ Network and Subnet Configuration
+After creating the VMs, I proceeded with configuring the VNet and Subnets.
+
+ Network Security Group (NSG) Configuration
+Since Azure had created default NSGs for each VM, I dissociated them and created a new custom NSG, which I then manually associated with the respective VMs.
+
+ Access Requirements and Configuration
+Frontend VM
+
+This VM is intended for public access (e.g., users accessing a website).
+
+During VM creation, I enabled a public IP address.
+
+I added an inbound rule in NSG to allow SSH access (port 22).
+
+Backend VM
+
+This is a private VM, used for internal application communication only.
+
+I did not assign a public IP during creation.
+
+Only internal traffic from the Frontend VM should be able to access it.
+
+I created an inbound rule in NSG to allow traffic only from the Frontend VM's private IP.
+
+I also added a deny rule for all other sources to prevent public access.
+
+Private VM
+
+Although it has a public IP, I do not want it to be accessed externally.
+
+I added an NSG rule to deny all public access, ensuring it's used for internal tasks only.
+
+⚠ Importance of NSG Priority
+While configuring NSG rules, I ensured that priority values were set correctly.
+
+Remember: Lower numbers = higher priority.
+For example:
+
+The rule allowing backend access from frontend has a lower priority number (e.g., 100).
+
+The deny rule has a higher priority number (e.g., 200), so it’s applied only after the allow rule.
+
+This setup ensures that:
+
+Frontend VM is publicly accessible for users.
+
+Backend VM is only accessible by the Frontend.
+
+Private VM is isolated and accessible only internally.
