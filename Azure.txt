@@ -89,3 +89,32 @@ Frontend VM is publicly accessible for users.
 Backend VM is only accessible by the Frontend.
 
 Private VM is isolated and accessible only internally.
+
+
+Day-3:
+
+
+- Entra id
+- 
+
+Tenant (Entra ID)
+│
+├── Subscription A
+│   ├── Resource Group 1
+│   │   ├── VM
+│   │   └── Storage
+│   └── Resource Group 2
+│       └── SQL Database
+│
+├── Subscription B
+│   └── Resource Group 3
+│       └── App Service
+│ 
+└── Users & Groups (in Entra ID)
+└── Can access resources in any subscription/resource group
+
+- in the microsoft azure the entra id is used to create the users and groups and give them roles and access them. in subscription we create the resourse groups.and the users we created in the entra id we will use it in the subscription and assign the roles how to control the resources..not to create the users and privaleges in the entra id only.
+- 
+- Cost management
+- vnet peering
+- users&roles
