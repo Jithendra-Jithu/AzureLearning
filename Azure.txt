@@ -118,3 +118,28 @@ Tenant (Entra ID)
 - Cost management
 - vnet peering
 - users&roles
+
+Day-4:
+
+## Azure Automation Account
+
+An Azure Automation Account is a container for your automation resources, including runbooks, jobs, and configurations. It provides a way to automate and orchestrate tasks across Azure and non-Azure environments.
+
+## Scope in Azure
+
+Scope defines the boundary of access and permissions in Azure. It can be set at different levels: Management Groups, Subscriptions, Resource Groups, or individual Resources. This hierarchical structure helps in organizing and managing access control effectively.
+
+## Microsoft Entra ID (formerly Azure AD)
+
+Microsoft Entra ID is Azure's cloud-based identity and access management service. It helps manage user access to Azure resources and applications, providing features like:
+
+- Single sign-on (SSO) authentication
+- Multi-factor authentication
+- Role-based access control (RBAC)
+- Identity protection and security
+
+When working with Automation Accounts, Entra ID is crucial for:
+
+- Managing authentication and authorization
+- Setting up managed identities for secure access to Azure resources
+- Configuring RBAC permissions for automation workloads
