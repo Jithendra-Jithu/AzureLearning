@@ -137,7 +137,7 @@ Microsoft Entra ID is Azure's cloud-based identity and access management service
 - Multi-factor authentication
 - Role-based access control (RBAC)
 - Identity protection and security
-
+Like today we created aautomation account and to run playbooks so that i can stop the resourses when ever i want ..for that i have to give the access to automation account so that it can access the services ,so you go to the entra id and gave reader access and managed identity and then created the playbook and runned… 
 When working with Automation Accounts, Entra ID is crucial for:
 
 - Managing authentication and authorization
