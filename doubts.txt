@@ -1,0 +1,7 @@
+Doubts:
+1. vms vs kubernetes vms when we have to use what?
+2. how the application is deployed in the vm, how the user is accessing teh application in vm like all the websites how they are hosting 
+3. capstone project
+4. how the webite is building from basic in the azuredevops
+5. how the vm is used for the azure devops for the website hosting
+6. from basic to advance in azure devops ,review the capstone project
