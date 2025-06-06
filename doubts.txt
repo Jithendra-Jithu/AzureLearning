@@ -5,3 +5,4 @@ Doubts:
 4. how the webite is building from basic in the azuredevops
 5. how the vm is used for the azure devops for the website hosting
 6. from basic to advance in azure devops ,review the capstone project
+7.bastion host
