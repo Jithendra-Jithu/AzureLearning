@@ -14,3 +14,4 @@ quality gates and release gates and sonar cube
 service plan
 scrum  from basic when and where it will use
 service plans and app services
+github actions
