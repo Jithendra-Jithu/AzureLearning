@@ -6,3 +6,9 @@ Doubts:
 5. how the vm is used for the azure devops for the website hosting
 6. from basic to advance in azure devops ,review the capstone project
 7.bastion host
+8. types of artifacts
+9.azure basics and terrafrom revise and azuredevops comparing with the normal devops tools and how it works inernally compared to normal devops tools
+service plan &
+10.application insights
+quality gates and release gates and sonar cube  
+service plan
