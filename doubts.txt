@@ -12,3 +12,4 @@ service plan &
 10.application insights
 quality gates and release gates and sonar cube  
 service plan
+scrum  from basic when and where it will use
