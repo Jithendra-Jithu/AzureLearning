@@ -1,0 +1,14 @@
+[Build Pipeline]
+  └── Compile
+  └── Unit Test
+  └── SonarQube Scan → ✅ Quality Gate
+  └── Package artifact
+
+[Release Pipeline]
+  └── QA Environment
+       └── ✅ Release Gate (e.g., check bugs closed, call API)
+       └── Deploy
+  └── Prod Environment
+       └── ✅ Manual Approval Gate
+       └── ✅ Azure Monitor Health Gate
+       └── Deploy to Prod
