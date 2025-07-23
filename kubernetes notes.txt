@@ -1,0 +1,33 @@
+What is Kubernetes?
+Kubernetes is also known as 'k8s'. This word comes from the Greek language, which means a pilot or helmsman.
+Kubernetes is an extensible, portable, and open-source platform designed by Google in 2014. It is mainly used to automate the deployment, scaling, and operations of the container-based applications across the cluster of nodes. It is also designed for managing the services of containerized apps using different methods which provide the scalability, predictability, and high availability.
+
+It is actually an enhanced version of 'Borg' for managing the long-running processes and batch jobs. Nowadays, many cloud services offer a Kubernetes-based infrastructure on which it can be deployed as the platform-providing service. This technique or concept works with many container tools, like docker, and follows the client-server architecture.
+
+Key Objects of Kubernetes
+Following are the key objects which exist in the Kubernetes:
+
+Pod
+
+It is the smallest and simplest basic unit of the Kubernetes application. This object indicates the processes which are running in the cluster.
+
+Node
+
+A node is nothing but a single host, which is used to run the virtual or physical machines. A node in the Kubernetes cluster is also known as a minion.
+
+Service
+
+A service in a Kubernetes is a logical set of pods, which works together. With the help of services, users can easily manage load balancing configurations.
+
+ReplicaSet
+
+A ReplicaSet in the Kubernetes is used to identify the particular number of pod replicas are running at a given time. It replaces the replication controller because it is more powerful and allows a user to use the "set-based" label selector.
+
+Namespace
+
+Kubernetes supports various virtual clusters, which are known as namespaces. It is a way of dividing the cluster resources between two or more users.
+
+In kubrntes architecture is primary node agent that runs on each node with in cluster 
+it is responsible for managing containers on that node by ensuring they are running according to the provided pod specifications
+it acts as intermediary between Kubernetes control plain and individual worker nodes to executes containeraized applications
+it recives instructions from control plain and communicates with the container runtime to start to stop monitor and check container operations on the notes

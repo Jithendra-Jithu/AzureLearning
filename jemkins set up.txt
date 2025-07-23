@@ -1,0 +1,8 @@
+jemkins set up
+docker setup in terminal and add in the Jenkins credentials
+ KyathamRohith
+ jkbarathkumar
+ KPkm25
+shaikkhaleedaazhari
+arjunkoppineni
+KIREETI1234
